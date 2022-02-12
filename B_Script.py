@@ -20,7 +20,7 @@ def Sending_Mail(data):
   
   server = smtplib.SMTP_SSL("smtp.gmail.com",465)
 	
-	server.login("abhigadhave97@gmail.com","Abhijitkg111")
+	server.login("abhigadhave97@gmail.com","Your_Mail_Password")
 	
 	server.send_message(msg);
 	
